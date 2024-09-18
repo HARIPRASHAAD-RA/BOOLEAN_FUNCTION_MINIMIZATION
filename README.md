@@ -51,10 +51,12 @@ assign f2= ((~y&z)|(w&y)|(x&y));
 endmodule
 ```
 ### Logic Symbol & Truth Table 
-
 *F1*
 ![image](https://github.com/user-attachments/assets/7df010aa-4cf8-438a-bd30-5b79a220de04)
+
+
 *F2*
+
 ![image](https://github.com/user-attachments/assets/2c174f66-6675-48ce-83c3-1e00840dcee1)
 
 
