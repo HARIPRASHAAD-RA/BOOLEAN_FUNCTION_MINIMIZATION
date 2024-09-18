@@ -44,15 +44,24 @@ output f1;
 assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
 endmodule
 ```
+```
+module ex2m2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2= ((~y&z)|(w&y)|(x&y));
+endmodule
+```
 
 
 
 **RTL realization**
 ![Screenshot (194)](https://github.com/user-attachments/assets/8707cea0-bc9f-468f-9bc0-bd37968c0c83)
+![image](https://github.com/user-attachments/assets/d49b5279-9c6a-4366-be67-ee6d081e4df2)
+
 
 **Output:**
 ![Screenshot (193)](https://github.com/user-attachments/assets/2bb38dda-b8e0-43e1-874d-21c93737a4b5)
-
+![image](https://github.com/user-attachments/assets/cd12664e-5a45-40bd-8db4-1eb97c3be2ea)
 
 **Result:**
 
