@@ -32,19 +32,27 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+### Developed by: HARIRPASHAAD RA
+###  Registered number : 212223040060
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+```
+module ex2(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
+endmodule
+```
+
 
 
 **RTL realization**
+![Screenshot (194)](https://github.com/user-attachments/assets/8707cea0-bc9f-468f-9bc0-bd37968c0c83)
 
 **Output:**
+![Screenshot (193)](https://github.com/user-attachments/assets/2bb38dda-b8e0-43e1-874d-21c93737a4b5)
 
-**RTL**
-
-**Timing Diagram**
 
 **Result:**
 
