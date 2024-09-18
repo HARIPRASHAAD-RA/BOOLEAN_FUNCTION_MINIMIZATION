@@ -52,7 +52,7 @@ endmodule
 ```
 ### Logic Symbol & Truth Table 
 
-**F2**
+
 ![image](https://github.com/user-attachments/assets/7df010aa-4cf8-438a-bd30-5b79a220de04)
 
 
